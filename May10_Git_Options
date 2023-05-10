@@ -1,0 +1,58 @@
+-c  
+--cached
+show cached files in the output
+git rm --cached del.html
+
+-d
+--deleted
+show the deleted files
+
+-m
+--modified
+show modified files in the output
+git commit -m "commit message"
+
+-o
+--others
+show other(untracked files) in the output
+
+-i
+--ignored
+show only ignored files in the output
+
+-s
+--stage
+show staged content'objject name
+
+--directory
+if a whole directory is classified as other
+
+
+-u
+--unmerged
+show unmerged files in the output
+
+-k
+--killed
+show files on the filesystem that need to be removed
+
+git log: is a utility tool to review and read a history of everything that happens to a repo.git log is a record of commits.
+
+The git status command displays the state of the working directory and the staging area. It lets you see which changes have been staged, which haven't, and which files aren't being tracked by Git. Status output does not show you any information regarding the committed project history.
+
+The git commit command is one of the core primary functions of Git. Prior use of the git add command is required to select the changes that will be staged for the next commit. Then git commit is used to create a snapshot of the staged changes along a timeline of a Git projects history.
+
+The oneline is an option of the git log command. The main purpose of this command is to print a single commit in a single line as output when the git log command is executed using this option. Using this option, the commits are printed in a pattern - the commit SHA's initial 7 characters than the commit message.
+
+One of the more helpful options is -p or --patch, which shows the difference (the patch output) introduced in each commit. You can also limit the number of log entries displayed, such as using -2 to show only the last two entries.
+
+$ git log -p -2
+
+
+if you want to see some abbreviated stats for each commit, you can use the --stat option:
+
+$ git log --stat
+As you can see, the --stat option prints below each commit entry a list of modified files, how many files were changed, and how many lines in those files were added and removed. It also puts a summary of the information at the end.
+
+
+
