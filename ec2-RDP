@@ -1,0 +1,16 @@
+Windows RDS Access:
+-	Create an Ec2 instance ( Key Pair -> opt for .pem)
+-	Once the instance is running -> Actions -> Security -> Get Windows Password
+-	Upload Windows Key File
+-	Select the .pem that we created earlier
+-	Decrypt password and copy it
+-	Copy the public ip
+-	On local Machine search for Remote Desktop Connection
+-	In RDP, Paste the public Ip we copied earlier -> Connect
+-	Administrator and the decrypted password as credentials 
+
+Linux Putty Access
+-	Create an Ec2 instance ( Key Pair -> opt for .ppk)
+-	Copy Public ip
+-	Open Putty -> Paste the public ip
+-	SSH -> Auth -> credentials -> Public -> Key Authentication -> browse
