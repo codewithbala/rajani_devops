@@ -1,0 +1,42 @@
+clear
+    2  ping google.com
+    3  history
+    4  clear
+    5  mkdir grepexample
+    6  cd grepexample
+    7  nano grepex.txt
+    8  cat grepex.txt
+    9  grep -i "LINux" grepex.txt
+   10  grep -c "LINux" grepex.txt
+   11  grep -c "Linux" grepex.txt
+   12  grep -l "Linux" *
+   13  nano grepex2.txt
+   14  grep -l "Linux" *
+   15  grep -w "Linux" grepex.txt
+   16  grep -o Linux grepex.txt
+   17  grep -n "Linux" grepex.txt
+   18  grep -v "Linux" grepex.txt
+   19  grep -v "LINUX" grepex.txt
+   20  nano grepex.txt
+   21  cat grepex.txt
+   22  grep -v "LINUX" grepex.txt
+   23  grep "se$" grepex.txt
+   24  grep "rn$" grepex.txt
+   25  grep "x?$" grepex.txt
+   26  grep "$Li" grepex.txt
+   27  grep "Li$x" grepex.txt
+   28  grep "a$a" grepex.txt
+   29  cat grepex.txt
+   30  grep -e "LINux" -e "LINUX" -e "LInux" grepex.txt
+   31  nano pattern.txt
+   32  cat pattern.txt
+   33  grep -f pattern.txt grepex.txt
+   34  nano pattern.txt
+   35  grep -f pattern.txt grepex.txt
+   36  cat grepex.txt
+   37  grep -A1 Bob grepex.txt
+   38  grep -A2 linux grepex.txt
+   39  grep -A3 linux grepex.txt
+   40  grep -B3 linux grepex.txt
+   41  grep -C3 linux grepex.txt
+   42  history
