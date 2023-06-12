@@ -1,0 +1,52 @@
+ git checkout maven_project_2023
+ 1960  ll
+ 1961  cd my-app/
+ 1962  ll
+ 1963  cd target
+ 1964  ll
+ 1965  cd ..
+ 1966  java -cp target/my-app-1.0-SNAPSHOT.jar com.mycompany.app.App
+ 1967  cd ..
+ 1968  cd Jenkins-CICD_Bala/
+ 1969  ll
+ 1970  my-app
+ 1971  cd my-app/
+ 1972  ll
+ 1973  tree
+ 1974  mvn compile
+ 1975  mvn clean
+ 1976  mvn compile; mvn install
+ 1977  netstat -tnlp | grep 80
+ 1978  cd ~/
+ 1979  https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.tar.gz
+ 1980  wget https://dlcdn.apache.org/tomcat/tomcat-8/v8.5.89/bin/apache-tomcat-8.5.89.tar.gz
+ 1981  ll
+ 1982  date
+ 1983  tar -xvf apache-tomcat-8.5.89.tar.gz
+ 1984  cd apache-tomcat-8.5.8
+ 1985  cd apache-tomcat-8.5.89
+ 1986  ll
+ 1987  cd bin
+ 1988  ll
+ 1989  ./startup.sh
+ 1990  cd ..
+ 1991  sudo systemctl
+ 1992  sudo systemctl status jenkins
+ 1993  sudo systemctl stop jenkins
+ 1994  sudo systemctl status jenkins
+ 1995  cd apache-tomcat-8.5.9
+ 1996  cd apache-tomcat-8.5.89
+ 1997  cd bin
+ 1998  ll
+ 1999  ./startup.sh
+ 2000  cd apache-tomcat-8.5.89
+ 2001  cd bin
+ 2002  ll
+ 2003  ./shutdown.sh
+ 2004  ./startup.sh
+ 2005  cd ..
+ 2006  ll
+ 2007  cd webapps/
+ 2008  ll
+ 2009  wget https://tomcat.apache.org/tomcat-11.0-doc/appdev/sample/sample.war
+ 2010  ls
