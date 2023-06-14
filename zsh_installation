@@ -1,0 +1,11 @@
+sudo apt install zsh
+    7  zsh --version
+    8  echo $SHELL
+    9  ll
+   10  chsh -s $(which zsh)
+   11  wget https://github.com/robbyrussell/oh-my-zsh/raw/master/tools/install.sh -O - | zsh
+   12  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+   13  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting
+   14  vim ~/.zshrc 
+   15  source ~/.zshrc
+   16  zsh
